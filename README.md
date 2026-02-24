@@ -1,10 +1,3 @@
-# System Design Primitives
-
-A production-grade implementation of distributed systems building blocks
-in **TypeScript**.
-
-------------------------------------------------------------------------
-
 ## 🧠 Purpose
 
 This repository is a hands-on distributed systems lab built entirely in
@@ -27,49 +20,6 @@ It implements real-world primitives used in scalable systems such as:
 The goal:
 
 > Learn distributed systems by building them from scratch.
-
-------------------------------------------------------------------------
-
-## 🏗 Repository Structure
-
-ts-system-design-primitives/ 
-│ 
-├── packages/ 
-│ 
-├── rate-limiting/ 
-│ 
-├──
-caching/ 
-│ 
-├── resilience/ 
-│ 
-├── load-balancing/ 
-│ 
-├── messaging/ 
-│ 
-├──coordination/ 
-│ 
-├── consistency/ 
-│ 
-├── consensus/ 
-│ 
-├── storage/ 
-│ 
-├──networking/ 
-│ 
-├── observability/ 
-│ 
-├── security/ 
-│ 
-└── simulations/ 
-│
-├── benchmarks/ 
-│
-├── examples/ 
-│
-├── docs/ 
-│
-└── shared/
 
 ------------------------------------------------------------------------
 
@@ -166,22 +116,9 @@ caching/
 
 ------------------------------------------------------------------------
 
-## 🧪 Benchmarks
-
-Each primitive includes:
-
--   Latency measurement
--   Throughput measurement
--   Memory usage
--   Concurrency stress testing
-
-------------------------------------------------------------------------
-
 
 ## 📜 License
 
 MIT
 
 ------------------------------------------------------------------------
-
-Star the repository. Build from scratch. Break things. Fix them. Repeat.
