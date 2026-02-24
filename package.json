@@ -1,0 +1,24 @@
+{
+  "name": "sys-d",
+  "version": "1.0.0",
+  "description": "A production-grade implementation of distributed systems building blocks in **TypeScript**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parvsharma04/sys-d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Parvsharma04/sys-d/issues"
+  },
+  "homepage": "https://github.com/Parvsharma04/sys-d#readme"
+}
