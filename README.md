@@ -32,7 +32,6 @@ The goal:
 -   Sliding Window Counter
 -   Token Bucket
 -   Leaky Bucket
--   Distributed Rate Limiter (Redis-backed)
 
 ### Resilience
 
