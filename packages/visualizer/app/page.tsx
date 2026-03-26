@@ -15,6 +15,7 @@ const concepts = [
     category: 'Resilience',
     items: [
       { name: 'Circuit Breaker', href: '/resilience/circuit-breaker', desc: 'Prevent cascading failures by switching between CLOSED, OPEN, and HALF_OPEN states based on failure thresholds.' },
+      { name: 'Retry w/ Exponential Backoff', href: '/resilience/retry', desc: 'Retry failed requests with progressively longer waits. Add jitter to avoid thundering herd.' },
     ],
   },
 ];
