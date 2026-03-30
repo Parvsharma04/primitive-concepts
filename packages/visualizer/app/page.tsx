@@ -16,6 +16,7 @@ const concepts = [
     items: [
       { name: 'Circuit Breaker', href: '/resilience/circuit-breaker', desc: 'Prevent cascading failures by switching between CLOSED, OPEN, and HALF_OPEN states based on failure thresholds.' },
       { name: 'Retry with Backoff', href: '/resilience/retry-with-backoff', desc: 'Automatically retry failed operations with exponentially increasing delays and optional jitter to avoid thundering herds.' },
+      { name: 'Timeout Wrapper', href: '/resilience/timeout-wrapper', desc: 'Wrap operations with a timeout to prevent them from hanging indefinitely. Races the operation against a timer.' },
     ],
   },
 ];
