@@ -34,6 +34,7 @@ const NAV: NavSection[] = [
             { label: 'Circuit Breaker', href: '/resilience/circuit-breaker' },
             { label: 'Retry with Backoff', href: '/resilience/retry-with-backoff' },
             { label: 'Timeout Wrapper', href: '/resilience/timeout-wrapper' },
+            { label: 'Bulkhead', href: '/resilience/bulkhead' },
         ],
     },
 ];

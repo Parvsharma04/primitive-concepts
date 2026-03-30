@@ -4,6 +4,7 @@ const patterns = [
     { name: 'Circuit Breaker', href: '/resilience/circuit-breaker', desc: 'Prevent cascading failures by switching between CLOSED, OPEN, and HALF_OPEN states based on failure thresholds.' },
     { name: 'Retry with Backoff', href: '/resilience/retry-with-backoff', desc: 'Automatically retry failed operations with exponentially increasing delays and optional jitter to avoid thundering herds.' },
     { name: 'Timeout Wrapper', href: '/resilience/timeout-wrapper', desc: 'Race an async operation against a deadline — if it takes too long, abort and fail fast instead of waiting forever.' },
+    { name: 'Bulkhead', href: '/resilience/bulkhead', desc: 'Isolate concurrent workloads with execution slots and a bounded queue — prevent one overwhelmed resource from starving others.' },
 ];
 
 export default function ResiliencePage() {
