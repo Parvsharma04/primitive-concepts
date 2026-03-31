@@ -35,6 +35,8 @@ const NAV: NavSection[] = [
             { label: 'Retry with Backoff', href: '/resilience/retry-with-backoff' },
             { label: 'Timeout Wrapper', href: '/resilience/timeout-wrapper' },
             { label: 'Bulkhead', href: '/resilience/bulkhead' },
+            { label: 'Hedged Requests', href: '/resilience/hedged-requests' },
+            { label: 'Fallback Strategy', href: '/resilience/fallback-strategy' },
         ],
     },
 ];

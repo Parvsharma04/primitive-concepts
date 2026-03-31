@@ -5,6 +5,8 @@ const patterns = [
     { name: 'Retry with Backoff', href: '/resilience/retry-with-backoff', desc: 'Automatically retry failed operations with exponentially increasing delays and optional jitter to avoid thundering herds.' },
     { name: 'Timeout Wrapper', href: '/resilience/timeout-wrapper', desc: 'Race an async operation against a deadline — if it takes too long, abort and fail fast instead of waiting forever.' },
     { name: 'Bulkhead', href: '/resilience/bulkhead', desc: 'Isolate concurrent workloads with execution slots and a bounded queue — prevent one overwhelmed resource from starving others.' },
+    { name: 'Hedged Requests', href: '/resilience/hedged-requests', desc: 'Fire duplicate requests after a delay and use whichever responds first — tame tail latency by racing redundant calls.' },
+    { name: 'Fallback Strategy', href: '/resilience/fallback-strategy', desc: 'Chain alternative providers to gracefully degrade — try primary, then secondary, cache, and finally a static default.' },
 ];
 
 export default function ResiliencePage() {

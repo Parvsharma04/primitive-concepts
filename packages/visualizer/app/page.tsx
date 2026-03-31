@@ -18,6 +18,8 @@ const concepts = [
       { name: 'Retry with Backoff', href: '/resilience/retry-with-backoff', desc: 'Automatically retry failed operations with exponentially increasing delays and optional jitter to avoid thundering herds.' },
       { name: 'Timeout Wrapper', href: '/resilience/timeout-wrapper', desc: 'Wrap operations with a timeout to prevent them from hanging indefinitely. Races the operation against a timer.' },
       { name: 'Bulkhead', href: '/resilience/bulkhead', desc: 'Isolate concurrent workloads with execution slots and a bounded queue — prevent one overwhelmed resource from starving others.' },
+      { name: 'Hedged Requests', href: '/resilience/hedged-requests', desc: 'Fire duplicate requests after a delay and use whichever responds first — tame tail latency by racing redundant calls.' },
+      { name: 'Fallback Strategy', href: '/resilience/fallback-strategy', desc: 'Chain alternative providers to gracefully degrade — try primary, then secondary, cache, and finally a static default.' },
     ],
   },
 ];
