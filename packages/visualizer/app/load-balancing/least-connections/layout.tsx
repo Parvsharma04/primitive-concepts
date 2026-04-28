@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+export const metadata: Metadata = { title: "Least Connections Load Balancer — Interactive Visualization", description: "Learn Least Connections load balancing: route to the server with the fewest active connections.", keywords: ["least connections", "load balancing", "active connections", "distributed systems"], alternates: { canonical: "/load-balancing/least-connections" } };
+export default function Layout({ children }: { children: React.ReactNode }) { return (<><JsonLd title="Least Connections Load Balancer" description="Interactive visualization of Least Connections load balancing." path="/load-balancing/least-connections" breadcrumbs={[{ name: "Home", href: "/" }, { name: "Load Balancing", href: "/load-balancing" }, { name: "Least Connections", href: "/load-balancing/least-connections" }]} />{children}</>); }

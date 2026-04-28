@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+export const metadata: Metadata = { title: "Round Robin Load Balancer — Interactive Visualization", description: "Learn Round Robin load balancing: distribute requests sequentially across servers in circular order.", keywords: ["round robin", "load balancing", "distributed systems", "server rotation"], alternates: { canonical: "/load-balancing/round-robin" } };
+export default function Layout({ children }: { children: React.ReactNode }) { return (<><JsonLd title="Round Robin Load Balancer" description="Interactive visualization of Round Robin load balancing." path="/load-balancing/round-robin" breadcrumbs={[{ name: "Home", href: "/" }, { name: "Load Balancing", href: "/load-balancing" }, { name: "Round Robin", href: "/load-balancing/round-robin" }]} />{children}</>); }

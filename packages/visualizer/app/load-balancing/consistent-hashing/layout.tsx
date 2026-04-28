@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+export const metadata: Metadata = { title: "Consistent Hashing — Interactive Visualization", description: "Learn Consistent Hashing: map keys to a ring of nodes. Adding/removing nodes only redistributes a fraction of keys.", keywords: ["consistent hashing", "hash ring", "distributed systems", "load balancing", "data partitioning"], alternates: { canonical: "/load-balancing/consistent-hashing" } };
+export default function Layout({ children }: { children: React.ReactNode }) { return (<><JsonLd title="Consistent Hashing" description="Interactive visualization of Consistent Hashing with a hash ring." path="/load-balancing/consistent-hashing" breadcrumbs={[{ name: "Home", href: "/" }, { name: "Load Balancing", href: "/load-balancing" }, { name: "Consistent Hashing", href: "/load-balancing/consistent-hashing" }]} />{children}</>); }

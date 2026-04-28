@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+export const metadata: Metadata = { title: "IP Hashing Load Balancer — Interactive Visualization", description: "Learn IP Hash load balancing: deterministically route clients to the same server using a hash of their IP address.", keywords: ["IP hashing", "load balancing", "session affinity", "hash function", "distributed systems"], alternates: { canonical: "/load-balancing/ip-hashing" } };
+export default function Layout({ children }: { children: React.ReactNode }) { return (<><JsonLd title="IP Hashing Load Balancer" description="Interactive visualization of IP Hash-based load balancing." path="/load-balancing/ip-hashing" breadcrumbs={[{ name: "Home", href: "/" }, { name: "Load Balancing", href: "/load-balancing" }, { name: "IP Hashing", href: "/load-balancing/ip-hashing" }]} />{children}</>); }

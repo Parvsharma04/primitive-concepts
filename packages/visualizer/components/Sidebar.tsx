@@ -39,6 +39,104 @@ const NAV: NavSection[] = [
             { label: 'Fallback Strategy', href: '/resilience/fallback-strategy' },
         ],
     },
+    {
+        title: 'Caching',
+        href: '/caching',
+        items: [
+            { label: 'LRU Cache', href: '/caching/lru-cache' },
+            { label: 'LFU Cache', href: '/caching/lfu-cache' },
+            { label: 'TTL Cache', href: '/caching/ttl-cache' },
+            { label: 'Cache Aside', href: '/caching/cache-aside' },
+            { label: 'Write-Through/Back', href: '/caching/write-through-back' },
+            { label: 'Cache Stampede', href: '/caching/cache-stampede' },
+            { label: 'Bloom Filter', href: '/caching/bloom-filter' },
+        ],
+    },
+    {
+        title: 'Load Balancing',
+        href: '/load-balancing',
+        items: [
+            { label: 'Round Robin', href: '/load-balancing/round-robin' },
+            { label: 'Weighted Round Robin', href: '/load-balancing/weighted-round-robin' },
+            { label: 'Least Connections', href: '/load-balancing/least-connections' },
+            { label: 'IP Hashing', href: '/load-balancing/ip-hashing' },
+            { label: 'Consistent Hashing', href: '/load-balancing/consistent-hashing' },
+        ],
+    },
+    {
+        title: 'Messaging',
+        href: '/messaging',
+        items: [
+            { label: 'In-Memory Queue', href: '/messaging/in-memory-queue' },
+            { label: 'Pub/Sub Broker', href: '/messaging/pub-sub-broker' },
+            { label: 'At-Most-Once', href: '/messaging/at-most-once' },
+            { label: 'At-Least-Once', href: '/messaging/at-least-once' },
+            { label: 'Dead Letter Queue', href: '/messaging/dead-letter-queue' },
+            { label: 'Consumer Groups', href: '/messaging/consumer-groups' },
+            { label: 'Partitioned Log', href: '/messaging/partitioned-log' },
+        ],
+    },
+    {
+        title: 'Coordination',
+        href: '/coordination',
+        items: [
+            { label: 'Distributed Lock', href: '/coordination/distributed-lock' },
+            { label: 'Leader Election', href: '/coordination/leader-election' },
+            { label: 'Heartbeat Monitor', href: '/coordination/heartbeat-monitor' },
+            { label: 'Service Registry', href: '/coordination/service-registry' },
+            { label: 'Service Discovery', href: '/coordination/service-discovery' },
+        ],
+    },
+    {
+        title: 'Consistency',
+        href: '/consistency',
+        items: [
+            { label: 'Primary-Replica', href: '/consistency/primary-replica' },
+            { label: 'Read/Write Quorum', href: '/consistency/read-write-quorum' },
+            { label: 'Vector Clocks', href: '/consistency/vector-clocks' },
+            { label: 'CRDT Counters', href: '/consistency/crdt-counters' },
+        ],
+    },
+    {
+        title: 'Consensus',
+        href: '/consensus',
+        items: [
+            { label: 'Two Phase Commit', href: '/consensus/two-phase-commit' },
+            { label: 'Three Phase Commit', href: '/consensus/three-phase-commit' },
+            { label: 'Simplified Raft', href: '/consensus/simplified-raft' },
+        ],
+    },
+    {
+        title: 'Storage',
+        href: '/storage',
+        items: [
+            { label: 'Key-Value Store', href: '/storage/key-value-store' },
+            { label: 'Append-Only Log', href: '/storage/append-only-log' },
+            { label: 'Write Ahead Log', href: '/storage/write-ahead-log' },
+            { label: 'SSTable', href: '/storage/sstable' },
+            { label: 'LSM Tree', href: '/storage/lsm-tree' },
+        ],
+    },
+    {
+        title: 'Observability',
+        href: '/observability',
+        items: [
+            { label: 'Metrics Collector', href: '/observability/metrics-collector' },
+            { label: 'Histogram', href: '/observability/histogram' },
+            { label: 'Structured Logger', href: '/observability/structured-logger' },
+            { label: 'Trace ID Propagation', href: '/observability/trace-id-propagation' },
+        ],
+    },
+    {
+        title: 'Security',
+        href: '/security',
+        items: [
+            { label: 'JWT Validation', href: '/security/jwt-validation' },
+            { label: 'API Key Validation', href: '/security/api-key-validation' },
+            { label: 'Idempotency Key', href: '/security/idempotency-key' },
+            { label: 'HMAC Verification', href: '/security/hmac-verification' },
+        ],
+    },
 ];
 
 export default function Sidebar() {
