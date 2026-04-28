@@ -468,3 +468,32 @@ h3 {
 .animate-in {
   animation: fadeIn 300ms ease;
 }
+
+/* ── Inputs ── */
+
+.sim-input {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-bright);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text-bright);
+  outline: none;
+  transition: all var(--transition);
+  min-width: 100px;
+}
+
+.sim-input::placeholder {
+  color: var(--text-dim);
+}
+
+.sim-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.sim-input:hover:not(:focus) {
+  border-color: var(--border-bright);
+  background: var(--surface-2);
+}
